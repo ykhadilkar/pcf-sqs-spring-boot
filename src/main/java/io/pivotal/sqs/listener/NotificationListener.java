@@ -58,13 +58,6 @@ public class NotificationListener{
 	                    + message.getMD5OfBody());
 	        	log.info("  Body:          "
 	                    + message.getBody());
-//	            if(!"".equals(message.getBody())) {
-//
-//		            System.out.println("Deleting a message.\n");
-//		            final String messageReceiptHandle = messages.get(0).getReceiptHandle();
-//		            sqs.deleteMessage(new DeleteMessageRequest(sqsURL,
-//		                    messageReceiptHandle));
-//		         }
 	        }
         }
 	}
