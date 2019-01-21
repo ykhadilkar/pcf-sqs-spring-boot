@@ -1,7 +1,7 @@
 # Sample Spring Boot and AWS SQS Integration for PCF
 
 ### Pre-requesite
-- Download Install PCF AWS Service Broker tile from [AWS Labs Github site](https://github.com/awslabs/aws-servicebroker/releases).
+- Download and Install PCF AWS Service Broker tile from [AWS Labs Github site](https://github.com/awslabs/aws-servicebroker/releases).
 - Create new service instance of type SQS and name it **sqs**
 
 ### Properties
@@ -20,10 +20,9 @@
       http -f post http://localhost:8090/messages body=Hello
       ```
 - Observe logs to see message with ``Hello`` text show up.
+- Delete all messages from Queue
     - ```bash
       http -f delete http://localhost:8090/messges  
       ```
 - Observe logs to see listener return no messages.
-
-
 
