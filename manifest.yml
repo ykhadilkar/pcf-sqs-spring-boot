@@ -3,4 +3,4 @@ applications:
   memory: 1G
   path: target/pcf-aws-queue-0.0.1-SNAPSHOT.jar
   services:
-  - sqs
+  - sqs-poc
