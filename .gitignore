@@ -26,3 +26,7 @@ hs_err_pid*
 
 /target/
 /.idea/
+/.settings/
+.project
+.classpath
+src/main/resources/application.properties

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PcfAwsQueueApplication",
+            "request": "launch",
+            "mainClass": "io.pivotal.sqs.PcfAwsQueueApplication",
+            "projectName": "pcf-aws-queue"
+        }
+    ]
+}
